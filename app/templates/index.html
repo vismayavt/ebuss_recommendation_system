@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+    <title>Ebuss Recommender</title>
+</head>
+ <body>
+     <h1>Sentiment-Based Product Recommendation</h1>
+   <form method="POST" action="/recommend">
+         <label>Enter Username:</label>
+         <input type="text" name="username" required>
+         <button type="submit">Get Recommendations</button>
+    </form>
+     {% if recommendations %}
+         <h3>Top 5 Recommended Products for {{ username }}:</h3>
+         <ul>
+             {% for product in recommendations %}
+                 <li>{{ product }}</li>
+             {% endfor %}
+         </ul>
+     {% endif %}
+ </body>
+ </html>
