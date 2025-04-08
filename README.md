@@ -17,3 +17,13 @@ A sentiment-based product recommendation system for an e-commerce platform that 
 
 ## 🗂️ Project Structure
 
+
+---
+
+## 🚀 How to Run the Project Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/vismayavt/ebuss_recommendation_system.git
+cd ebuss_recommendation_system
